@@ -60,10 +60,10 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
 
     implementation "com.google.android.material:material:$rootProject.materialVersion"
-    implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
-    implementation "androidx.recyclerview:recyclerview:$rootProject.recyclerVersion"
+    implementation "androidx.appcompat:appcompat:1.3.1"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
 
-    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.0"
 
     //Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationVersion"
